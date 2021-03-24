@@ -2,6 +2,8 @@ package com.concordia;
 
 import com.concordia.common.BaseThread;
 
+import java.util.Random;
+
 /**
  * Class Philosopher.
  * Outlines main subrutines of our virtual philosopher.
@@ -27,9 +29,11 @@ public class Philosopher extends BaseThread
 	{
 		try
 		{
-			// ...
+			System.out.println("Philosopher " + getTID() + " is eating");
+			this.randomYield();
 			sleep((long)(Math.random() * TIME_TO_WASTE));
-			// ...
+			this.randomYield();
+			System.out.println("Philosopher " + getTID() + " is done eating");
 		}
 		catch(InterruptedException e)
 		{
@@ -49,7 +53,19 @@ public class Philosopher extends BaseThread
 	 */
 	public void think()
 	{
-		// ...
+		try {
+			System.out.println("Philosopher " + getTID() + " is thinking");
+			this.randomYield();
+			sleep((long)(Math.random() * TIME_TO_WASTE));
+			this.randomYield();
+			System.out.println("Philosopher " + getTID() + " is done thinking");
+		}
+		catch(InterruptedException e)
+		{
+			System.err.println("Philosopher.think():");
+			DiningPhilosophers.reportException(e);
+			System.exit(1);
+		}
 	}
 
 	/**
@@ -62,11 +78,11 @@ public class Philosopher extends BaseThread
 	 */
 	public void talk()
 	{
-		// ...
-
+		System.out.println("Philosopher " + getTID() + " has started talking");
+		this.randomYield();
 		saySomething();
-
-		// ...
+		this.randomYield();
+		System.out.println("Philosopher " + getTID() + " is done talking");
 	}
 
 	/**
@@ -89,7 +105,8 @@ public class Philosopher extends BaseThread
 			 * A decision is made at random whether this particular
 			 * philosopher is about to say something terribly useful.
 			 */
-			if(true == false)
+			int rand = new Random().nextInt((1)+1);
+			if(rand == 1)
 			{
 				// Some monitor ops down here...
 				talk();
