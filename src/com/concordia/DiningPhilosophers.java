@@ -39,16 +39,29 @@ public class DiningPhilosophers
 	/**
 	 * Main system starts up right here
 	 */
-	public static void main(String[] argv)
+	public static void main(String[] args)
 	{
 		try
 		{
-			/*
-			 * TODO:
-			 * Should be settable from the command line
-			 * or the default if no arguments supplied.
-			 */
 			int iPhilosophers = DEFAULT_NUMBER_OF_PHILOSOPHERS;
+
+			// Gets the number of philosophers through the command line
+			try {
+				if (args.length <= 1){
+					iPhilosophers = Integer.parseInt(args[0]);
+					if (!(iPhilosophers > 0)) {
+						System.err.println("\"" + iPhilosophers + "\" is not a positive integer");
+						System.exit(1);
+					}
+				} else {
+					System.err.println("Please only specify one parameter");
+					System.exit(1);
+				}
+			} catch (Exception e){
+				System.err.println("Usage: java DiningPhilosophers [NUMBER_OF_PHILOSOPHERS]");
+				reportException(e);
+				System.exit(1);
+			}
 
 			// Make the monitor aware of how many philosophers there are
 			soMonitor = new Monitor(iPhilosophers);

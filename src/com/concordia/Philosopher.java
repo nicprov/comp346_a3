@@ -92,7 +92,11 @@ public class Philosopher extends BaseThread
 	{
 		for(int i = 0; i < DiningPhilosophers.DINING_STEPS; i++)
 		{
-			DiningPhilosophers.soMonitor.pickUp(getTID());
+			try {
+				DiningPhilosophers.soMonitor.pickUp(getTID());
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 
 			eat();
 
@@ -101,19 +105,20 @@ public class Philosopher extends BaseThread
 			think();
 
 			/*
-			 * TODO:
 			 * A decision is made at random whether this particular
 			 * philosopher is about to say something terribly useful.
 			 */
-			int rand = new Random().nextInt((1)+1);
-			if(rand == 1)
+			if(new Random().nextInt((1)+1) == 1)
 			{
-				// Some monitor ops down here...
+				try {
+					DiningPhilosophers.soMonitor.requestTalk();
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
 				talk();
-				// ...
+				DiningPhilosophers.soMonitor.endTalk();
 			}
-
-			this.yield();
+			this.randomYield();
 		}
 	} // run()
 
