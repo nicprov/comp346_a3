@@ -1,9 +1,5 @@
 package com.concordia;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * Class Monitor
  * To synchronize dining philosophers.
@@ -54,6 +50,7 @@ public class Monitor
 		testEating(realPiTID);
 		if (philosophersStatus[realPiTID] != status.EATING){
 			wait();
+			pickUp(piTID);
 		}
 	}
 
@@ -67,8 +64,8 @@ public class Monitor
 		int realPiTID = piTID - 1;
 		philosophersStatus[realPiTID] = status.THINKING;
 
-		// Test left and right neighbours
-		testEating((Math.abs(realPiTID - 1) % piNumberOfPhilosophers));
+		// Test left and right neighbours to notify them if possible
+		testEating((realPiTID - 1 + piNumberOfPhilosophers) % piNumberOfPhilosophers);
 		testEating((realPiTID + 1) % piNumberOfPhilosophers);
 	}
 
@@ -77,9 +74,10 @@ public class Monitor
 	 * (while she is not eating).
 	 */
 	public synchronized void requestTalk() throws InterruptedException {
-		while (isTalking) {
+		if (isTalking) {
 			try {
 				wait();
+				requestTalk();
 			} catch (InterruptedException e){
 				System.err.println("Philosopher.requestTalk():");
 				DiningPhilosophers.reportException(e);
@@ -101,8 +99,9 @@ public class Monitor
 
 	private synchronized void testEating(final int piTID){
 		if (philosophersStatus[(piTID + 1) % piNumberOfPhilosophers] != status.EATING &&
-				philosophersStatus[Math.abs((piTID - 1) % piNumberOfPhilosophers)] != status.EATING &&
+				philosophersStatus[(piTID - 1 + piNumberOfPhilosophers) % piNumberOfPhilosophers] != status.EATING &&
 				philosophersStatus[piTID] == status.HUNGRY){
+			philosophersStatus[piTID] = status.EATING;
 			notifyAll();
 		}
 	}

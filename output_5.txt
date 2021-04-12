@@ -1,0 +1,276 @@
+5 philosopher(s) came in for a dinner.
+Philosopher 3 is eating
+Philosopher 1 is eating
+Philosopher 1 is done eating
+Philosopher 5 is eating
+Philosopher 1 is thinking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 2 is eating
+Philosopher 3 is done thinking
+Philosopher 3 has started talking
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 is done talking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 is done talking
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 1 is eating
+Philosopher 4 is done thinking
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: If thee cannot speak, thee must be silent
+Philosopher 5 is done talking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 2 is done thinking
+Philosopher 2 is eating
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 3 is done thinking
+Philosopher 3 has started talking
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 is done talking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: My number is 1
+Philosopher 1 is done talking
+Philosopher 1 is eating
+Philosopher 2 is done thinking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 3 is eating
+Philosopher 4 is done thinking
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is eating
+Philosopher 1 is done thinking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 2 is eating
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 4 is eating
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 3 is done thinking
+Philosopher 3 has started talking
+Philosopher 3 says: My number is 3
+Philosopher 3 is done talking
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 1 is eating
+Philosopher 3 is eating
+Philosopher 4 is done thinking
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 5 is done talking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 1 is done talking
+Philosopher 1 is eating
+Philosopher 3 is done thinking
+Philosopher 3 has started talking
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 is done talking
+Philosopher 2 is done thinking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 3 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is eating
+Philosopher 4 is done thinking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 is done talking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 2 is eating
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 4 is eating
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: My number is 5
+Philosopher 5 is done talking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 5 is eating
+Philosopher 3 is done thinking
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is done thinking
+Philosopher 2 is done thinking
+Philosopher 2 has started talking
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 is done talking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 1 is eating
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 3 is done thinking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 3 is eating
+Philosopher 5 is done thinking
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is eating
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 is done talking
+Philosopher 4 is done thinking
+Philosopher 4 has started talking
+Philosopher 4 says: You know, true is false and false is true if you think of it
+Philosopher 4 is done talking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 2 is eating
+Philosopher 3 is done thinking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 4 is eating
+Philosopher 5 is done thinking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 5 is eating
+Philosopher 4 is done thinking
+Philosopher 4 has started talking
+Philosopher 4 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 4 is done talking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 4 is eating
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 1 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: My number is 5
+Philosopher 5 is done talking
+Philosopher 2 is done thinking
+Philosopher 2 is eating
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 1 is done thinking
+Philosopher 1 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 5 is eating
+Philosopher 3 is eating
+Philosopher 4 is done thinking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: My number is 1
+Philosopher 1 is done talking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 4 is eating
+Philosopher 1 is eating
+Philosopher 2 is done thinking
+Philosopher 2 has started talking
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 is done talking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 4 is done thinking
+Philosopher 4 is eating
+Philosopher 3 is done thinking
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 5 is done talking
+Philosopher 4 is done eating
+Philosopher 4 is thinking
+Philosopher 3 is eating
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is eating
+Philosopher 4 is done thinking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 2 is eating
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 5 is done talking
+Philosopher 5 is eating
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 is done talking
+Philosopher 3 is done thinking
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 1 is eating
+Philosopher 3 is done eating
+Philosopher 3 is thinking
+Philosopher 1 is done eating
+Philosopher 1 is thinking
+Philosopher 5 is done thinking
+Philosopher 5 has started talking
+Philosopher 5 says: My number is 5
+Philosopher 5 is done talking
+Philosopher 5 is eating
+Philosopher 2 is done thinking
+Philosopher 2 is eating
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 3 is done thinking
+Philosopher 5 is done eating
+Philosopher 5 is thinking
+Philosopher 1 is done thinking
+Philosopher 1 has started talking
+Philosopher 1 says: My number is 1
+Philosopher 1 is done talking
+Philosopher 2 is done thinking
+Philosopher 2 is eating
+Philosopher 5 is done thinking
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 2 is done thinking
+Philosopher 2 has started talking
+Philosopher 2 says: My number is 2
+Philosopher 2 is done talking
+Philosopher 2 is eating
+Philosopher 2 is done eating
+Philosopher 2 is thinking
+Philosopher 2 is done thinking
+All philosophers have left. System terminates normally.
+
+Process finished with exit code 0
